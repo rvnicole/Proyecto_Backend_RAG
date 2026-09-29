@@ -1,0 +1,35 @@
+{
+  "name": "proyecto_backend_rag",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Nicole Rosas Vallejo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.2.0",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.29",
+    "@langchain/core": "^1.2.13",
+    "@langchain/google-genai": "^2.3.2",
+    "@langchain/textsplitters": "^1.0.2",
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "pdf-parse": "^1.1.4",
+    "pg": "^8.23.0",
+    "zod": "^4.6.5"
+  }
+}
